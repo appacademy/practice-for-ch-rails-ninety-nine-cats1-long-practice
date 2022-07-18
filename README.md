@@ -29,10 +29,10 @@ the `Download Project` button below and copy them into the root directory of
 your project.
 
 If you prefer to use `byebug` instead of `debug` as your debugger, then replace
-`debug` with `byebug` in your Gemfile. Add any other gems you want to install
-(e.g., `annotate`, `better_errors`, `binding_of_caller`, `pry-rails`). If you
-make any changes to your Gemfile, run `bundle install` to incorporate them into
-your project.
+`debug` with `byebug` in your Gemfile and make sure your __.gitignore__ includes
+__.byebug_history__. Add any other gems you want to install (e.g., `annotate`,
+`better_errors`, `binding_of_caller`, `pry-rails`). If you make any changes to
+your Gemfile, run `bundle install` to incorporate them into your project.
 
 Next, set up your Postgres database by running `rails db:create`.
 
