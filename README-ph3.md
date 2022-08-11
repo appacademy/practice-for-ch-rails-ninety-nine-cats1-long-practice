@@ -2,6 +2,8 @@
 
 **[Live Demo!][live-demo]**
 
+[live-demo]: https://ninetyninecats.herokuapp.com/
+
 ## Phase III: Approving/Denying requests
 
 In today's final phase, you will enable users to approve or deny any `Cat`'s

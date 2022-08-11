@@ -83,10 +83,11 @@ Once you've migrated, add the following validations in the model:
   views, so store them in a constant inside your `Cat` class.)
 * `inclusion` ensuring that `sex` is `"M"` or `"F"`
 
-Then add a [custom validation] `:birth_date_cannot_be_future` to ensure that the
-cat's `birth_date` is not in the future. Here you can see the benefit of having
-declared `birth_date` to be of type `date`: Active Record magically deserializes
-the string input into a Ruby `Date` object. So, e.g., you can do this:
+Then add a [custom validation][custom validations]
+`:birth_date_cannot_be_future` to ensure that the cat's `birth_date` is not in
+the future. Here you can see the benefit of having declared `birth_date` to be
+of type `date`: Active Record magically deserializes the string input into a
+Ruby `Date` object. So, e.g., you can do this:
 
 ```ruby
 kitty = Cat.new(birth_date: '2015/01/20')

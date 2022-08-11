@@ -2,6 +2,8 @@
 
 **[Live Demo!][live-demo]**
 
+[live-demo]: https://ninetyninecats.herokuapp.com/
+
 ## Phase II: `CatRentalRequest`
 
 In this phase, you will create a `CatRentalRequest` model with appropriate
