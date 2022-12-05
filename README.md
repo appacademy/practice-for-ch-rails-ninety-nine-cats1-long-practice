@@ -47,7 +47,7 @@ config.action_controller.default_protect_from_forgery = false
 right underneath the `config.load_defaults X.X` line in
 __config/application.rb__.
 
-[live-demo]: https://ninetyninecats.herokuapp.com/
+[live-demo]: https://aa-99-cats.herokuapp.com/
 
 ## Phase I: `Cat`
 

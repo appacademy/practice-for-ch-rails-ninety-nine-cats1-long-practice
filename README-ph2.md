@@ -2,7 +2,7 @@
 
 **[Live Demo!][live-demo]**
 
-[live-demo]: https://ninetyninecats.herokuapp.com/
+[live-demo]: https://aa-99-cats.herokuapp.com/
 
 ## Phase II: `CatRentalRequest`
 
